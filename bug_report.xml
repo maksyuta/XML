@@ -1,1 +1,14 @@
-
+<ID>1</ID>
+  <Module>Web site</Module>
+  <Summary>Non-clickable link 'Click on the chat icon'</Summary>
+  <STR>    
+              <1>Open the site https://nopass.us/#/</1>
+              <2>At the bottom of the site, click 'Support'</2>
+              <3>In the header of the page, select 'CONTACT US'",</3>
+    <4>At the bottom of the site, click on the link 'Click on the Chat icon'</4>
+       </STR>                     ,
+   <Expected result>Support chat opens</Expected result>
+   <Actual result>Support chat not opening</Actual result>                   
+   <Severity>Medium</Severity>
+<Environment>Windows 10 Pro, Chrome v101</Enviroment>
+ <Reproducibility>Usually</Reproducibility>
